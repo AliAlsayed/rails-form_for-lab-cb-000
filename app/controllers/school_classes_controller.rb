@@ -4,5 +4,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def create
+    fail
+    @school_class = SchoolClass.create(params[])
   end
 end
