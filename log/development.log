@@ -113,3 +113,10 @@ Processing by Rails::WelcomeController#index as */*
 Completed 200 OK in 10ms (Views: 5.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/school_classes/new" for 5.32.97.110 at 2019-03-19 07:02:55 +0000
+Processing by SchoolClassesController#new as HTML
+  Rendering school_classes/new.html.erb within layouts/application
+  Rendered school_classes/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
