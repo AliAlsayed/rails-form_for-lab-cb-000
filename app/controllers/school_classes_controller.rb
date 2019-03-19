@@ -5,6 +5,6 @@ class SchoolClassesController < ApplicationController
 
   def create
     fail
-    @school_class = SchoolClass.create(params[])
+    @school_class = SchoolClass.create(params[:school_class])
   end
 end
