@@ -4,8 +4,8 @@ class SchoolClassesController < ApplicationController
   end
 
   def create
-    fail
     @school_class = SchoolClass.create(params[:school_class])
+    redirect_to @school_class
   end
 
   def show
