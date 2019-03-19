@@ -134,3 +134,10 @@ Processing by SchoolClassesController#new as HTML
 Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/school_classes/new" for 5.32.97.110 at 2019-03-19 07:03:33 +0000
+Processing by SchoolClassesController#new as HTML
+  Rendering school_classes/new.html.erb within layouts/application
+  Rendered school_classes/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
